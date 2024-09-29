@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fashion Recommendation System</h1>
+        <form id="recommendation-form">
+            <select id="style" required>
+                <option value="" disabled selected>Select Style</option>
+                <option value="casual">Casual</option>
+                <option value="formal">Formal</option>
+                <option value="sporty">Sporty</option>
+                <option value="bohemian">Bohemian</option>
+                <option value="party">Party</option>
+                <option value="summer">Summer</option>
+            </select>
+            <select id="bodyShape" required>
+                <option value="" disabled selected>Select Body Shape</option>
+                <option value="pear">Pear</option>
+                <option value="apple">Apple</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="hourglass">Hourglass</option>
+                <option value="triangle">Triangle</option>
+                <option value="oval">Oval</option>
+            </select>
+            <select id="type" required>
+                <option value="" disabled selected>Select Type</option>
+                <option value="dress">Dress</option>
+                <option value="top">Top</option>
+                <option value="pants">Pants</option>
+                <option value="skirt">Skirt</option>
+                <option value="jacket">Jacket</option>
+                <option value="shorts">Shorts</option>
+                <option value="sweater">Sweater</option>
+                <option value="blazer">Blazer</option>
+                <option value="jeans">Jeans</option>
+                <option value="overall">Overall</option>
+                <option value="culottes">Culottes</option>
+                <option value="maxi dress">Maxi Dress</option>
+            </select>
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

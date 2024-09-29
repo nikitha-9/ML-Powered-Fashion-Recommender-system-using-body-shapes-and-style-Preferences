@@ -1,0 +1,22 @@
+[
+    {"id": 1, "type": "dress", "style": "casual", "bodyShape": "pear"},
+    {"id": 2, "type": "top", "style": "formal", "bodyShape": "apple"},
+    {"id": 3, "type": "pants", "style": "casual", "bodyShape": "rectangle"},
+    {"id": 4, "type": "skirt", "style": "bohemian", "bodyShape": "hourglass"},
+    {"id": 5, "type": "dress", "style": "formal", "bodyShape": "triangle"},
+    {"id": 6, "type": "jacket", "style": "casual", "bodyShape": "rectangle"},
+    {"id": 7, "type": "top", "style": "sporty", "bodyShape": "oval"},
+    {"id": 8, "type": "pants", "style": "formal", "bodyShape": "hourglass"},
+    {"id": 9, "type": "dress", "style": "party", "bodyShape": "apple"},
+    {"id": 10, "type": "top", "style": "casual", "bodyShape": "rectangle"},
+    {"id": 11, "type": "shorts", "style": "summer", "bodyShape": "pear"},
+    {"id": 12, "type": "sweater", "style": "casual", "bodyShape": "rectangle"},
+    {"id": 13, "type": "dress", "style": "casual", "bodyShape": "hourglass"},
+    {"id": 14, "type": "blazer", "style": "formal", "bodyShape": "apple"},
+    {"id": 15, "type": "jeans", "style": "casual", "bodyShape": "triangle"},
+    {"id": 16, "type": "tank top", "style": "sporty", "bodyShape": "oval"},
+    {"id": 17, "type": "cardigan", "style": "bohemian", "bodyShape": "rectangle"},
+    {"id": 18, "type": "overall", "style": "casual", "bodyShape": "pear"},
+    {"id": 19, "type": "culottes", "style": "formal", "bodyShape": "hourglass"},
+    {"id": 20, "type": "maxi dress", "style": "bohemian", "bodyShape": "apple"}
+]

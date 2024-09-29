@@ -1,0 +1,55 @@
+/* rec.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/236x/64/ff/e1/64ffe1a8a5935f0df44cb1e2ea07e4fa.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color to white for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for contrast */
+; /* Semi-transparent black background for contrast */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    text-align: center; /* Center text */
+    max-width: 600px; /* Max width of the container */
+    width: 90%; /* Responsive width */
+}
+
+h2 {
+    font-size: 2.5em; /* Larger heading */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.2em; /* Increased font size for paragraphs */
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+.item-image {
+    max-width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-top: 20px; /* Space above the image */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); /* Shadow for images */
+    width:40%
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2em; /* Responsive heading size */
+    }
+
+    p {
+        font-size: 1em; /* Responsive paragraph size */
+    }
+}

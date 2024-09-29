@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('https://media.glamour.com/photos/6626b67efe2842721af58f96/16:9/w_3488,h_1962,c_limit/wardrobe%20essentials.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Adding a semi-transparent overlay to make text readable over the image */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: slideIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #bb2c50ee;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #FFD700;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+select:focus {
+    border-color: #FFD700;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #FFB800;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+}
+
+#recommendation-output {
+    padding: 1.5rem;
+    background-color: rgba(178, 28, 180, 0.1);
+    border-radius: 10px;
+    box-shadow: inset 0px 3px 10px rgba(255, 255, 255, 0.3);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #FFD700;
+}
+
+#recommended-id {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .overlay {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    select, button {
+        font-size: 1rem;
+    }
+}
